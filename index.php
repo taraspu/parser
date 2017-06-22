@@ -1,21 +1,28 @@
 <?php
-//FRONT CONTROLLER
 
-require_once 'index.html';
-die;
-// 1. Общие настройки
+
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 
+?>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W</title>
+</head>
+<body>
 
-// 2. Include system files
-define('ROOT', __DIR__);
-require_once (ROOT.'/components/Router.php');
-// 3. Connect Db
+    <h1>Обработка изображений</h1>
+    <br><h3>Выберите изображения менее 5Mb</h3>
+    <form enctype="multipart/form-data" action="image.php" method="POST">
+        <input type="file" name="pic"><br>
+        <input type="file" name="pic2"><br>
+        <input type="submit" name="submit" value="Загрузить изображения">
+        
+    </form>
+  
+</body>
+</html>
 
-// 4. Call Router
-
-$object = new Router();
-$object->Run();
