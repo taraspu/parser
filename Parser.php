@@ -11,7 +11,7 @@ namespace tp\parser;
 Class Parser implements ParserInterface
 {
     //method    
-    public function process(string $url, string $tag): array {
+    public function process(string $tag, string $url): array {
         $arr = array();
         preg_match($tag, $url, $arr);
         return $arr;
