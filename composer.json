@@ -1,0 +1,21 @@
+{
+    "name": "t.p/parser",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Taras Pustoviy",
+            "email": "taras.pustoviy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "tp\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
