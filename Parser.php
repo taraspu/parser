@@ -16,6 +16,12 @@ Class Parser implements ParserInterface
         preg_match($tag, $url, $arr);
         return $arr;
     }
+    
+    
+    public function test()
+    {
+    echo "test";    
+    }
 }
 
 
