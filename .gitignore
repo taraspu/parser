@@ -1,3 +1,6 @@
 /vendor/
 composer.phar
 index.php
+/test_dev/vendor/
+/test_dev/nbproject/private/
+/test_dev/

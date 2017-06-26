@@ -5,6 +5,8 @@ namespace tp\parser;
  * Description of Parser
  *
  * @author wert
+ * 
+ * small changes
  */
 Class Parser implements ParserInterface
 {
